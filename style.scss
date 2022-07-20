@@ -515,3 +515,100 @@ input, textarea {
 
     }
 }
+//-------------------------------team------------------------------------//@at-root
+
+.team{
+    display: flex;
+    height: 650px;
+    
+    h1{
+        font-size: 36px;
+        font-family:'Quattrocento Sans', sans-serif;
+        border-left: 10px solid #e0e5ea;
+        padding: 0 0 0 10px;
+        margin: 80px 0 60px -45px;
+    }
+}
+.member-one{
+    position: relative;
+    .member-one-img{
+        margin: 0 0 0 -31px ;
+    }
+   .member-one-text{
+       width: 263px;
+       height: 75px;
+       background-color: #e1e6ea;
+       margin: -3px 0 0 -31px ;
+       .p-one{
+        font-size: 16px;
+        font-family: 'Quattrocento Sans', sans-serif;
+        padding: 19px 0 10px 20px;
+       }
+       .p-two{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #a3a6a9;
+        padding: 0 0 0 20px;
+       }
+       
+   }
+    
+}
+.member-one:hover .member-one-text {
+    
+    background-color: #3a454d;
+    color: white;
+}
+.member-one:hover .member-one-img{
+    opacity: 0.6;
+    
+}
+.link-face{
+        
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    background-image: url(images/faceb.png);
+    background-position: center;
+    position: absolute;
+    margin:120px 0 0 -216px ;
+    opacity: 0;
+    
+
+}
+.link-twit{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    background-image: url(images/twit.png);
+    background-position: center;
+    position: absolute;
+    margin:120px 0 0 -153px ;
+    opacity: 0;
+   
+    
+}
+.link-in{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0,);
+    background-image: url(images/in.png);
+    background-position: center;
+    position: absolute;
+    margin:120px 0 0 -90px ;
+    opacity: 0;
+    
+}
+.member-one:hover{
+    .link-face{
+        opacity: 1;
+        
+        
+    }
+    .link-twit{
+        opacity: 1;
+    }
+    .link-in{
+        opacity: 1;
+    }
+}
