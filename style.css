@@ -293,7 +293,7 @@ body {
 }
 
 .logo {
-  margin: 6px 0 0 -40px;
+  margin: 6px 0 0 0;
 }
 
 li {
@@ -372,21 +372,21 @@ input, textarea {
 .slider-content h1 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 36px;
-  margin: 228px 0 30px -45px;
+  margin: 228px 0 30px 0;
   color: white;
 }
 
 .slider-content p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  margin: 0 0 40px -45px;
+  margin: 0 0 40px 0;
   color: #ccd0d7;
 }
 
 .slider-content .view-more {
   width: 124px;
   height: 44px;
-  margin: 0 12px 0 -45px;
+  margin: 0 12px 0 0;
   border-radius: 3px;
   border: 2px solid  white;
   background-color: transparent;
@@ -425,11 +425,11 @@ input, textarea {
   font-family: 'Quattrocento Sans', sans-serif;
   border-left: 10px solid #e0e5ea;
   padding: 0 0 0 10px;
-  margin: 80px 0 60px -45px;
+  margin: 80px 0 60px 0;
 }
 
 .about-par p {
-  margin: 0 0 40px -45px;
+  margin: 0 0 40px 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #a9aaad;
@@ -444,7 +444,7 @@ input, textarea {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 15px 0 0 -45px;
+  margin: 15px 0 0 0;
 }
 
 .network .link-fb {
@@ -613,7 +613,7 @@ input, textarea {
   font-family: 'Quattrocento Sans', sans-serif;
   border-left: 10px solid #e0e5ea;
   padding: 0 0 0 10px;
-  margin: 80px 0 60px -45px;
+  margin: 80px 0 60px 0;
 }
 
 .member-one {
@@ -621,14 +621,14 @@ input, textarea {
 }
 
 .member-one .member-one-img {
-  margin: 0 0 0 -31px;
+  margin: 0 0 0 15px;
 }
 
 .member-one .member-one-text {
   width: 263px;
   height: 75px;
   background-color: #e1e6ea;
-  margin: -3px 0 0 -31px;
+  margin: -3px 0 0 15px;
 }
 
 .member-one .member-one-text .p-one {
