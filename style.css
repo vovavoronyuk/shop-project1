@@ -649,52 +649,148 @@ input, textarea {
   color: white;
 }
 
-.member-one:hover .member-one-img {
-  opacity: 0.6;
+.member-one-img:hover img {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 
 .link-face {
   width: 60px;
   height: 60px;
-  background-color: black;
+  background-color: #3a454d;
   background-image: url(images/faceb.png);
   background-position: center;
   position: absolute;
   margin: 120px 0 0 -216px;
-  opacity: 0;
+}
+
+.link-face:hover {
+  background-color: #3b5998;
 }
 
 .link-twit {
   width: 60px;
   height: 60px;
-  background-color: black;
+  background-color: #3a454d;
   background-image: url(images/twit.png);
   background-position: center;
   position: absolute;
   margin: 120px 0 0 -153px;
-  opacity: 0;
+}
+
+.link-twit:hover {
+  background-color: #00acee;
 }
 
 .link-in {
   width: 60px;
   height: 60px;
-  background-color: black;
+  background-color: #3a454d;
   background-image: url(images/in.png);
   background-position: center;
   position: absolute;
   margin: 120px 0 0 -90px;
+}
+
+.link-in:hover {
+  background-color: #0e76a8;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 900px;
+  background-color: #3a454d;
+}
+
+.work h1 {
+  font-size: 36px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  border-left: 10px solid #4e5a62;
+  padding: 0 0 0 10px;
+  margin: 80px 0 60px 0;
+  color: white;
+}
+
+.work-space-one {
+  margin: 0 0 30px 15px;
+  position: relative;
+}
+
+.work-space-one p {
+  width: 100%;
+  height: 60px;
+  background-color: #292f36;
+  color: white;
+  padding: 23px 0 0 21px;
+  position: absolute;
   opacity: 0;
 }
 
-.member-one:hover .link-face {
+.work-space-one .plus {
+  position: absolute;
+  margin: 100px 0 0 -185px;
+  opacity: 0;
+}
+
+.work-space-two {
+  margin: 0 0 0 15px;
+  position: relative;
+}
+
+.work-space-two p {
+  width: 100%;
+  height: 60px;
+  background-color: #292f36;
+  color: white;
+  padding: 23px 0 0 21px;
+  position: absolute;
+  opacity: 0;
+}
+
+.work-space-two .plus {
+  position: absolute;
+  margin: 100px 0 0 -185px;
+  opacity: 0;
+}
+
+.work-space-one:hover img {
+  width: 361px;
+  height: 205px;
+  margin: 0 0 60px 0;
+  opacity: 0.6;
+}
+
+.work-space-one:hover p {
+  margin: -62px 0 0 0;
   opacity: 1;
 }
 
-.member-one:hover .link-twit {
+.work-space-one:hover .plus {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 100px 0 0 -200px;
   opacity: 1;
 }
 
-.member-one:hover .link-in {
+.work-space-two:hover img {
+  width: 361px;
+  height: 205px;
+  opacity: 0.6;
+}
+
+.work-space-two:hover p {
+  margin: -2px 0 0 0;
+  opacity: 1;
+}
+
+.work-space-two:hover .plus {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin: 100px 0 0 -200px;
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
