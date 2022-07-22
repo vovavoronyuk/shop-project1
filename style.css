@@ -855,4 +855,39 @@ input, textarea {
   text-align: center;
   margin: 0 10px 90px 10px;
 }
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 735px;
+  background-color: #3a454d;
+}
+
+.features h1 {
+  font-size: 36px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  border-left: 10px solid #4e5a62;
+  padding: 0 0 0 10px;
+  margin: 92px 0 60px 0;
+  color: white;
+}
+
+.features img {
+  margin: 0 0 54px 15px;
+}
+
+.features h3 {
+  font-size: 18px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+  margin: 0 0 30px 15px;
+}
+
+.features p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin: 0 0 0 15px;
+}
 /*# sourceMappingURL=style.css.map */
