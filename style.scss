@@ -556,12 +556,15 @@ input, textarea {
     
 }
 .member-one:hover .member-one-text {
-    
+     
     background-color: #3a454d;
     color: white;
 }
-.member-one-img:hover img{
+.member-one:hover img{
     filter: blur(3px);
+}
+.member-one:hover a{
+    opacity: 1;
 }
 
 .link-face{
@@ -573,6 +576,7 @@ input, textarea {
     background-position: center;
     position: absolute;
     margin:120px 0 0 -216px ;  
+    opacity: 0;
 
 }
 .link-face:hover{
@@ -586,6 +590,7 @@ input, textarea {
     background-position: center;
     position: absolute;
     margin:120px 0 0 -153px ;
+    opacity: 0;
     
 }
 .link-twit:hover{
@@ -599,6 +604,7 @@ input, textarea {
     background-position: center;
     position: absolute;
     margin:120px 0 0 -90px ;
+    opacity: 0;
     
     
 }
@@ -708,4 +714,52 @@ input, textarea {
 
     }
     
+    
+}
+.show-me{
+    width: 147px;
+    height: 43px;
+    margin: 620px 0 0 120px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.show-me:hover{
+    background-color: #23b7a4;
+        border:2px solid  transparent;
+        cursor: pointer;
+}
+//--------------------------------------------services----------------------------------------------//
+
+.services{
+    display: flex;
+    height: 900px;
+    background-color: white;
+    h1{
+        font-size: 36px;
+        font-family:'Quattrocento Sans', sans-serif;
+        border-left: 10px solid #e0e5ea;
+        padding: 0 0 0 10px;
+        margin: 80px 0 60px 0;
+    }
+}
+.services-one{
+    margin: 0 0 0 15px ;
+    img{
+        margin: 30px 0 35px 110px;
+    }
+    h3{
+        font-family:'Quattrocento Sans', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        text-align:center;
+        margin: 0 10px 90px 10px;
+    }
 }
