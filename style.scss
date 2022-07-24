@@ -199,7 +199,9 @@
 
 //-----------------only mobile>767-----------------------//
 @media(max-width:767px){
+   
     .container {
+        
         .col-xs-1 {
             flex: 0 0 8.33333%;
             max-width: 8.33333%;
@@ -251,17 +253,13 @@
         
     }
     
-    .logo {
-        display: flex;
-        justify-content: center;
-    }
-    nav {
-        overflow-x: scroll;
-    }
-    .hidden-xs{
-        display: none;
-    }
+    
+    
+   
 }
+
+
+
 @media (min-width: 320px) {
     .menu {
         display: flex;
@@ -857,4 +855,75 @@ input, textarea {
         color: white;
         margin: 0 0 0 15px;
     }
+}
+//-------------------------------------------media---------------------------------------//
+@media(max-width:767px){
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    nav {
+        overflow-x: scroll;
+    }
+    .hidden-xs{
+        display: none;
+    }
+    .team{
+        height: 1000px;
+        
+    }
+    .col-xs-5{
+        margin: 0 20px 30px 20px;
+    }
+    .slider-content{
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .view-more{
+            margin: 0 10px 0 200px;
+        }
+    }
+    .work{
+        height: 1200px;
+    }
+    .work-space-one{
+        img{
+            width: 300px;
+            
+        }
+        
+        
+    }
+    .work-space-one:hover{
+        img{
+        width: 300px;
+        height: 160px;
+        
+    }
+    .plus{
+        margin: 70px 0 0 -170px;
+    }
+
+    }
+    .work-space-two{
+        img{
+            width: 300px;
+        
+            
+        }
+        
+    }
+    .work-space-two:hover{
+        img{
+        width: 300px;
+        height: 160px;
+        
+    }
+    .plus{
+        margin: 70px 0 0 -170px;
+    }
+}
 }
