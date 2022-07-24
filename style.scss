@@ -925,5 +925,23 @@ input, textarea {
     .plus{
         margin: 70px 0 0 -170px;
     }
+    
+}
+.services{
+    height: auto;
+}
+.features{
+    height: auto;
+    img{
+        margin: auto;
+    }
+    h3{
+        margin: 10px 0 10px 150px;
+        
+    }
+    p{
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
 }
 }
