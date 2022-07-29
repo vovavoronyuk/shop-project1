@@ -440,7 +440,6 @@ input, textarea {
 
 .banner {
   width: 100%;
-  background: url(images/home.png);
   background-position: center;
   padding: 0 0 250px 0;
   display: -webkit-box;
@@ -449,11 +448,33 @@ input, textarea {
   position: relative;
 }
 
+.slider-one {
+  width: 105.5%;
+  height: 660px;
+  position: absolute;
+  margin: -229px;
+}
+
+.slider-two {
+  width: 105.5%;
+  height: 660px;
+  position: absolute;
+  margin: -229px;
+}
+
+.slider-three {
+  width: 105.5%;
+  height: 660px;
+  position: absolute;
+  margin: -229px;
+}
+
 .slider-content h1 {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 36px;
   margin: 228px 0 30px 0;
   color: white;
+  position: relative;
 }
 
 .slider-content p {
@@ -461,6 +482,7 @@ input, textarea {
   font-size: 16px;
   margin: 0 0 40px 0;
   color: #ccd0d7;
+  position: relative;
 }
 
 .slider-content .view-more {
@@ -471,6 +493,7 @@ input, textarea {
   border: 2px solid  white;
   background-color: transparent;
   color: #ffff;
+  position: relative;
 }
 
 .slider-content .video-tour {
@@ -480,6 +503,7 @@ input, textarea {
   border: 2px solid  white;
   background-color: transparent;
   color: #ffff;
+  position: relative;
 }
 
 .slider-content .view-more:hover {

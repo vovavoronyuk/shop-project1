@@ -357,11 +357,32 @@ input, textarea {
 //---------------banner-------------//
 .banner{
     width: 100%;
-    background: url(images/home.png);
+    // background: url(images/home.png);
     background-position: center;
     padding: 0 0 250px 0;
     display: flex;
     position: relative;
+}
+.slider-one{
+    
+    width: 105.5%;
+    height: 660px;
+    position: absolute;
+    margin: -229px;
+}
+.slider-two{
+   
+    width: 105.5%;
+    height: 660px;
+    position: absolute;
+    margin: -229px;
+}
+.slider-three{
+    
+    width: 105.5%;
+    height: 660px;
+    position: absolute;
+    margin: -229px;
 }
 .slider-content{
     
@@ -370,12 +391,14 @@ input, textarea {
          font-size: 36px;
          margin: 228px 0 30px 0;
          color: white;
+         position: relative;
     }
     p{
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         margin: 0 0 40px 0;
         color: #ccd0d7;
+        position: relative;
     }
     .view-more{
         width: 124px;
@@ -385,6 +408,7 @@ input, textarea {
         border:2px solid  white;
         background-color: transparent;
         color: #ffff;
+        position: relative;
     }
     .video-tour{
         width: 124px;
@@ -393,6 +417,7 @@ input, textarea {
         border:2px solid  white;
         background-color: transparent;
         color: #ffff;
+        position: relative;
     }
 
     .view-more:hover{
