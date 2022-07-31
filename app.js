@@ -1,1 +1,3 @@
-$(".slider-block").slick({});
+$(".slider-block").slick({
+  dots: true,
+});
